@@ -56,8 +56,8 @@ assembly-for-everyone/
 ## 🧪 How to Run Your First Program
 
 ```bash
-nasm -f elf64 hello.asm -o hello.o
-ld hello.o -o hello
+nasm -f elf hello.asm -o hello.o
+ld -m elf_i386 hello.o -o hello
 ./hello
 ```
 
@@ -78,4 +78,3 @@ This project is inspired by the belief that **low-level programming** shouldn’
 ## 📜 License
 
 MIT License — use it freely for learning or teaching!
-```
