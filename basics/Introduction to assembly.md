@@ -82,5 +82,3 @@ ld -m elf_i386 hello.o -o hello
 ---
 
 Happy Hacking! 💻🧠
-
-```
