@@ -8,7 +8,7 @@ section .data                           ; data section
         len equ $ - msg                 ; assign len variable to length of msg
 
 section .text                   ; text section
-        global _start           ; telling program entry point
+        global _start           ; entry point for the linker
 
 _start:
         ; Write "Hello World!" to stdout
