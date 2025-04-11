@@ -61,15 +61,15 @@ ld -m elf_i386 hello.o -o hello
 
 ## 🧠 Registers You Should Know (x86, 32-bit)
 
-| Register | Purpose                  |
-|----------|--------------------------|
-| `eax`    | Accumulator / Return value |
-| `ebx`    | Base register / Syscall arg |
-| `ecx`    | Counter                   |
-| `edx`    | Data                      |
-| `esp`    | Stack Pointer             |
-| `ebp`    | Base Pointer (stack frame) |
-| `eip`    | Instruction Pointer       |
+| Register | Purpose                  | Explanation |
+|----------|--------------------------| ------------|
+| `eax`    | Accumulator / Return value | accumulator. Very general purpose. Used for math, data, and function return values. |
+| `ebx`    | Base register / Syscall arg |  base address (within ds). |
+| `ecx`    | Counter                   | counter. Used for loops and repeats. |
+| `edx`    | Data                      | data. Very general purpose. Used for math and data. |
+| `esp`    | Stack Pointer             |  stack pointer (within ss). Always points to the current bottom of the stack. |
+| `ebp`    | Base Pointer (stack frame) | base pointer (within ss). Used for stack frames within functions. |
+| `eip`    | Instruction Pointer       | instruction pointer. Always points to the next instruction to execute after the current one. |
 
 ---
 
