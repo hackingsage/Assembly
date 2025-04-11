@@ -5,7 +5,8 @@
 
 
 section .data                           ; data section
-        msg db "Hello World!", 0Ah      ; assign msg variable with your message string
+        msg db "Hello World!", 0Ah      ; assign msg variable with your message string.
+                                        ; Also 0Ah or 0xA is used for line break
         len equ $ - msg                 ; assign len variable to length of msg
 
 section .text                   ; text section
