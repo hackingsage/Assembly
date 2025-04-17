@@ -1,4 +1,8 @@
 ; main.asm
+; basic game where the program checks whether the number is divisible by 3 or 5
+; if the number is divisible by 3 print fizz
+; if the number is divisible by 5 print buzz
+; if the number is divisible by both 3 and 5 print fizzbuzz
 
 %include "function.asm"
 
