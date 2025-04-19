@@ -24,10 +24,11 @@ This repository is a structured, hands-on journey through Assembly programming (
 ## 📁 Repository Structure
 
 ```
-assembly-for-everyone/
+Assembly/
 │
 ├── basics/              # Introduction to Assembly, first programs
 ├── programs/            # Making Intermediate level programs
+├── file handling/       # File handling operations
 └── README.md
 ```
 
