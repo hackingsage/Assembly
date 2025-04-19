@@ -27,6 +27,7 @@ This repository is a structured, hands-on journey through Assembly programming (
 assembly-for-everyone/
 │
 ├── basics/              # Introduction to Assembly, first programs
+├── programs/            # Making Intermediate level programs
 └── README.md
 ```
 
