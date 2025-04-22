@@ -29,6 +29,7 @@ Assembly/
 ├── basics/              # Introduction to Assembly, first programs
 ├── programs/            # Making Intermediate level programs
 ├── file handling/       # File handling operations
+├── socket/              # Socket programming
 └── README.md
 ```
 
